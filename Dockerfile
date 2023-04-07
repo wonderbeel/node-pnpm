@@ -1,3 +1,3 @@
 FROM node:18-alpine
 
-RUN npm i -g pnpm
+RUN corepack prepare pnpm@8.1.1 --activate

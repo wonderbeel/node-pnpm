@@ -1,4 +1,4 @@
-FROM node:18-alpine
+FROM node:20-alpine
 RUN apk add git
 RUN corepack enable
-RUN corepack prepare pnpm@8.1.1 --activate
+RUN corepack prepare pnpm@8.5.1 --activate
